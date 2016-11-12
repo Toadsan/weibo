@@ -12,9 +12,17 @@ class HMTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //设置渲染
-        //tabBar.tintColor = UIColor.orange
+        //自定义tabbar
+        let hmtabBar = HMTabBar()
+        //只读属性不能够直接赋值  --> 简介赋值
+        //self.tabBar = hmtabBar
+        self.setValue(hmtabBar, forKey: "tabBar")
+        
+        
+        
         addChildViewControllers()
+        
+        
     }
     
     //添加子视图控制器

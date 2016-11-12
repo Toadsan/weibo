@@ -28,6 +28,7 @@
 		AEFD46C61DD6F3FA00FD007F /* HMDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C51DD6F3FA00FD007F /* HMDiscoverTableViewController.swift */; };
 		AEFD46C81DD6F40700FD007F /* HMMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C71DD6F40700FD007F /* HMMessageTableViewController.swift */; };
 		AEFD46CA1DD6F42A00FD007F /* HMProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C91DD6F42A00FD007F /* HMProfileTableViewController.swift */; };
+		AEFD46CC1DD6FB5F00FD007F /* HMTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46CB1DD6FB5F00FD007F /* HMTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		AEFD46C51DD6F3FA00FD007F /* HMDiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMDiscoverTableViewController.swift; sourceTree = "<group>"; };
 		AEFD46C71DD6F40700FD007F /* HMMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMessageTableViewController.swift; sourceTree = "<group>"; };
 		AEFD46C91DD6F42A00FD007F /* HMProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMProfileTableViewController.swift; sourceTree = "<group>"; };
+		AEFD46CB1DD6FB5F00FD007F /* HMTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				AEFD46A61DD6CADD00FD007F /* .gitkeep */,
+				AEFD46CB1DD6FB5F00FD007F /* HMTabBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				AEFD46CA1DD6F42A00FD007F /* HMProfileTableViewController.swift in Sources */,
 				AEFD46C41DD6F3ED00FD007F /* HMHomeTableViewController.swift in Sources */,
 				AEFD46C61DD6F3FA00FD007F /* HMDiscoverTableViewController.swift in Sources */,
+				AEFD46CC1DD6FB5F00FD007F /* HMTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
