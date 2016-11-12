@@ -12,7 +12,9 @@ import UIKit
 extension UIBarButtonItem {
     
     //分类中不能够声明指定的构造器
-    convenience init(imageName: String,target: Any?, action: Selector?) {
+    //函数使用的大招
+    //给函数的参数设置默认值 系统自动会生成一个不带该参数的方法
+    convenience init(title: String = "", imageName: String,target: Any?, action: Selector?) {
         let btn = UIButton()
         //设置按钮
         btn.setImage(UIImage(named: imageName), for: .normal)
