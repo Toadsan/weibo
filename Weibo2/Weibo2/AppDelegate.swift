@@ -18,7 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //实例化window
         window = UIWindow(frame: UIScreen.main.bounds)
         //设置根视图控制器
-        window?.rootViewController = ViewController()
+        let tabbar = HMTabBarController()
+        //tabbar.addChildViewControllers()
+        window?.rootViewController = tabbar
         
         //可视化window
         window?.makeKeyAndVisible()

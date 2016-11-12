@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AEFD466A1DD6C20A00FD007F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46691DD6C20A00FD007F /* AppDelegate.swift */; };
-		AEFD466C1DD6C20A00FD007F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD466B1DD6C20A00FD007F /* ViewController.swift */; };
 		AEFD46711DD6C20A00FD007F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46701DD6C20A00FD007F /* Assets.xcassets */; };
 		AEFD46B31DD6CADD00FD007F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46921DD6CADD00FD007F /* .gitkeep */; };
 		AEFD46B41DD6CADD00FD007F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46941DD6CADD00FD007F /* .gitkeep */; };
@@ -24,12 +23,16 @@
 		AEFD46BE1DD6CADD00FD007F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46AE1DD6CADD00FD007F /* .gitkeep */; };
 		AEFD46BF1DD6CADD00FD007F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46B01DD6CADD00FD007F /* .gitkeep */; };
 		AEFD46C01DD6CADD00FD007F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46B21DD6CADD00FD007F /* .gitkeep */; };
+		AEFD46C21DD6F3D600FD007F /* HMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C11DD6F3D600FD007F /* HMTabBarController.swift */; };
+		AEFD46C41DD6F3ED00FD007F /* HMHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C31DD6F3ED00FD007F /* HMHomeTableViewController.swift */; };
+		AEFD46C61DD6F3FA00FD007F /* HMDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C51DD6F3FA00FD007F /* HMDiscoverTableViewController.swift */; };
+		AEFD46C81DD6F40700FD007F /* HMMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C71DD6F40700FD007F /* HMMessageTableViewController.swift */; };
+		AEFD46CA1DD6F42A00FD007F /* HMProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C91DD6F42A00FD007F /* HMProfileTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AEFD46661DD6C20A00FD007F /* Weibo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFD46691DD6C20A00FD007F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AEFD466B1DD6C20A00FD007F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AEFD46701DD6C20A00FD007F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFD46751DD6C20A00FD007F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEFD46921DD6CADD00FD007F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -46,6 +49,11 @@
 		AEFD46AE1DD6CADD00FD007F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		AEFD46B01DD6CADD00FD007F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		AEFD46B21DD6CADD00FD007F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		AEFD46C11DD6F3D600FD007F /* HMTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTabBarController.swift; sourceTree = "<group>"; };
+		AEFD46C31DD6F3ED00FD007F /* HMHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMHomeTableViewController.swift; sourceTree = "<group>"; };
+		AEFD46C51DD6F3FA00FD007F /* HMDiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMDiscoverTableViewController.swift; sourceTree = "<group>"; };
+		AEFD46C71DD6F40700FD007F /* HMMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMessageTableViewController.swift; sourceTree = "<group>"; };
+		AEFD46C91DD6F42A00FD007F /* HMProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMProfileTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +88,6 @@
 			children = (
 				AEFD46901DD6CADD00FD007F /* Classes */,
 				AEFD46691DD6C20A00FD007F /* AppDelegate.swift */,
-				AEFD466B1DD6C20A00FD007F /* ViewController.swift */,
 				AEFD46701DD6C20A00FD007F /* Assets.xcassets */,
 				AEFD46751DD6C20A00FD007F /* Info.plist */,
 			);
@@ -126,9 +133,9 @@
 		AEFD46971DD6CADD00FD007F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AEFD46981DD6CADD00FD007F /* Discover */,
-				AEFD469D1DD6CADD00FD007F /* Home */,
 				AEFD46A21DD6CADD00FD007F /* Main */,
+				AEFD469D1DD6CADD00FD007F /* Home */,
+				AEFD46981DD6CADD00FD007F /* Discover */,
 				AEFD46A71DD6CADD00FD007F /* Message */,
 				AEFD46AC1DD6CADD00FD007F /* Profile */,
 			);
@@ -148,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				AEFD469A1DD6CADD00FD007F /* .gitkeep */,
+				AEFD46C51DD6F3FA00FD007F /* HMDiscoverTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				AEFD469F1DD6CADD00FD007F /* .gitkeep */,
+				AEFD46C31DD6F3ED00FD007F /* HMHomeTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -198,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				AEFD46A41DD6CADD00FD007F /* .gitkeep */,
+				AEFD46C11DD6F3D600FD007F /* HMTabBarController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -223,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				AEFD46A91DD6CADD00FD007F /* .gitkeep */,
+				AEFD46C71DD6F40700FD007F /* HMMessageTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -248,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				AEFD46AE1DD6CADD00FD007F /* .gitkeep */,
+				AEFD46C91DD6F42A00FD007F /* HMProfileTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -353,8 +365,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFD466C1DD6C20A00FD007F /* ViewController.swift in Sources */,
+				AEFD46C21DD6F3D600FD007F /* HMTabBarController.swift in Sources */,
+				AEFD46C81DD6F40700FD007F /* HMMessageTableViewController.swift in Sources */,
 				AEFD466A1DD6C20A00FD007F /* AppDelegate.swift in Sources */,
+				AEFD46CA1DD6F42A00FD007F /* HMProfileTableViewController.swift in Sources */,
+				AEFD46C41DD6F3ED00FD007F /* HMHomeTableViewController.swift in Sources */,
+				AEFD46C61DD6F3FA00FD007F /* HMDiscoverTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +515,7 @@
 				AEFD467A1DD6C20A00FD007F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
