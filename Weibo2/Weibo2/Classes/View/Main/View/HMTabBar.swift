@@ -10,10 +10,22 @@ import UIKit
 
 class HMTabBar: UITabBar {
     
+    //定义闭包
+    var composeClosure: (() -> ())?
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.addSubview(composeBtn)
-        
+        //监听按钮的点击事件
+        self.composeBtn.addTarget(self, action: #selector(composeBtnDidClick), for: .touchUpInside)
+    }
+    
+    func composeBtnDidClick() {
+        //需要跳转控制器 不能够直接在view中处理点击事件
+        //应该对外抛出点击事件(代理或者闭包)
+        print(#function)
+        //执行闭包
+        composeClosure?()
     }
     
     

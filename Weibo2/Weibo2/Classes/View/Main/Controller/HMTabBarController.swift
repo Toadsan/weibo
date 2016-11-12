@@ -17,6 +17,14 @@ class HMTabBarController: UITabBarController {
         //只读属性不能够直接赋值  --> 简介赋值
         //self.tabBar = hmtabBar
         self.setValue(hmtabBar, forKey: "tabBar")
+        
+        //监听点击事件
+        //有循环引用
+        hmtabBar.composeClosure =  { [weak self] in
+            //在实际开发中 按钮的点击事件处理的地方 需要留一个查找的标记
+            print("撰写按钮被点击啦")
+            //print(self)
+        }
         addChildViewControllers()
     }
     
