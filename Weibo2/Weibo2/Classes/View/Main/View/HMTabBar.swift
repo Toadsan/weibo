@@ -18,9 +18,15 @@ class HMTabBar: UITabBar {
     
     
     //解档的方法 系统这样做有什么意义?
+    //重写了构造方法 系统就需要程序员手动实现该方法
+    //一旦该视图通过xib加载程序就会崩溃
+    //你写好这个视图 可能别人会使用该视图
     required init?(coder aDecoder: NSCoder) {
         //默认实现报错
-        fatalError("init(coder:) has not been implemented")
+        //fatalError("init(coder:) has not been implemented")
+        //该控件就支持手写代码和 xib来创建
+        super.init(coder: aDecoder)
+        self.addSubview(composeBtn)
     }
     
     //手写代码创建视图,不会执行这个方法
