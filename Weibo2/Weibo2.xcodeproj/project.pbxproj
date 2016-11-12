@@ -50,12 +50,180 @@
 		AEFD46681DD6C20A00FD007F /* Weibo2 */ = {
 			isa = PBXGroup;
 			children = (
+				AEFD467B1DD6C96E00FD007F /* Classes */,
 				AEFD46691DD6C20A00FD007F /* AppDelegate.swift */,
 				AEFD466B1DD6C20A00FD007F /* ViewController.swift */,
 				AEFD46701DD6C20A00FD007F /* Assets.xcassets */,
 				AEFD46751DD6C20A00FD007F /* Info.plist */,
 			);
 			path = Weibo2;
+			sourceTree = "<group>";
+		};
+		AEFD467B1DD6C96E00FD007F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD467F1DD6C96E00FD007F /* View */,
+				AEFD467C1DD6C96E00FD007F /* Model */,
+				AEFD467D1DD6C96E00FD007F /* Other */,
+				AEFD467E1DD6C96E00FD007F /* Tools */,
+				AEFD468F1DD6C96E00FD007F /* ViewModel */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AEFD467C1DD6C96E00FD007F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEFD467D1DD6C96E00FD007F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AEFD467E1DD6C96E00FD007F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		AEFD467F1DD6C96E00FD007F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD46861DD6C96E00FD007F /* Main */,
+				AEFD46831DD6C96E00FD007F /* Home */,
+				AEFD46801DD6C96E00FD007F /* Discover */,
+				AEFD46891DD6C96E00FD007F /* Message */,
+				AEFD468C1DD6C96E00FD007F /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEFD46801DD6C96E00FD007F /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD46811DD6C96E00FD007F /* Controller */,
+				AEFD46821DD6C96E00FD007F /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		AEFD46811DD6C96E00FD007F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEFD46821DD6C96E00FD007F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEFD46831DD6C96E00FD007F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD46841DD6C96E00FD007F /* Controller */,
+				AEFD46851DD6C96E00FD007F /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AEFD46841DD6C96E00FD007F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEFD46851DD6C96E00FD007F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEFD46861DD6C96E00FD007F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD46871DD6C96E00FD007F /* Controller */,
+				AEFD46881DD6C96E00FD007F /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AEFD46871DD6C96E00FD007F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEFD46881DD6C96E00FD007F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEFD46891DD6C96E00FD007F /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD468A1DD6C96E00FD007F /* Controller */,
+				AEFD468B1DD6C96E00FD007F /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		AEFD468A1DD6C96E00FD007F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEFD468B1DD6C96E00FD007F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEFD468C1DD6C96E00FD007F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD468D1DD6C96E00FD007F /* Controller */,
+				AEFD468E1DD6C96E00FD007F /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AEFD468D1DD6C96E00FD007F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEFD468E1DD6C96E00FD007F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEFD468F1DD6C96E00FD007F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +252,7 @@
 		AEFD465E1DD6C20A00FD007F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HM;
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = itcast;
