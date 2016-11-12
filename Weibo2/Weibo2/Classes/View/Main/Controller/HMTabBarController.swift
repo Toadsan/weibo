@@ -14,7 +14,7 @@ class HMTabBarController: UITabBarController {
         super.viewDidLoad()
         //自定义tabbar
         let hmtabBar = HMTabBar()
-        //只读属性不能够直接赋值  --> 简介赋值
+        //只读属性不能够直接赋值  --> 间接赋值
         //self.tabBar = hmtabBar
         self.setValue(hmtabBar, forKey: "tabBar")
         
@@ -26,6 +26,7 @@ class HMTabBarController: UITabBarController {
             print(self!)
         }
         addChildViewControllers()
+        
     }
     
     //添加子视图控制器

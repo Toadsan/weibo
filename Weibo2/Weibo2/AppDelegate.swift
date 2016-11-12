@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         //实例化window
         window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         //设置根视图控制器
         let tabbar = HMTabBarController()
         //tabbar.addChildViewControllers()
