@@ -20,7 +20,12 @@ class HMTabBar: UITabBar {
         self.composeBtn.addTarget(self, action: #selector(composeBtnDidClick), for: .touchUpInside)
     }
     
-    func composeBtnDidClick() {
+    //不希望外界能够访问按钮的点击事件 需要设置为私有的
+    //一旦添加了private 这个时候私有的方法 就对OC的运行循环不可见
+    //@objc 是一个OC的标识
+    //swift 会对继承自NSObject的对象的方法或者属性默认添加 @objc标识,不会对私有的属性或者方法添加@objc标识
+    //添加@objc 是告诉系统这个方法或者属性具备OC特性(消息机制,KVC的动态派发)
+    @objc private func composeBtnDidClick() {
         //需要跳转控制器 不能够直接在view中处理点击事件
         //应该对外抛出点击事件(代理或者闭包)
         print(#function)

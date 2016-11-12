@@ -23,7 +23,7 @@ class HMTabBarController: UITabBarController {
         hmtabBar.composeClosure =  { [weak self] in
             //在实际开发中 按钮的点击事件处理的地方 需要留一个查找的标记
             print("撰写按钮被点击啦")
-            //print(self)
+            print(self!)
         }
         addChildViewControllers()
     }
