@@ -16,6 +16,11 @@ extension UIBarButtonItem {
     //给函数的参数设置默认值 系统自动会生成一个不带该参数的方法
     convenience init(title: String = "", imageName: String,target: Any?, action: Selector?) {
         let btn = UIButton()
+        btn.setTitle(title, for: .normal)
+        //设置文字颜色
+        btn.setTitleColor(UIColor.darkGray, for: .normal)
+        btn.setTitleColor(UIColor.orange, for: .highlighted)
+        btn.titleLabel?.font = UIFont.systemFont(ofSize: 14)
         //设置按钮
         btn.setImage(UIImage(named: imageName), for: .normal)
         btn.setImage(UIImage(named: imageName + "_highlighted"), for: .highlighted)

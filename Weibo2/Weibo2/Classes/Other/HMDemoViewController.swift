@@ -14,7 +14,7 @@ class HMDemoViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(imageName: "navigationbar_back_withtext", target: self, action: #selector(back))
+        //self.navigationItem.leftBarButtonItem = UIBarButtonItem(title:"返回",imageName: "navigationbar_back_withtext", target: self, action: #selector(back))
         //let itm1 = UIBarButtonItem(age: 0, imageName: "xxx", target: self, action: #selector(back))
     }
     

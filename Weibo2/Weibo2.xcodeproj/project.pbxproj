@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AE569F4B1DD70F9800F29A3E /* HMDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE569F4A1DD70F9800F29A3E /* HMDemoViewController.swift */; };
 		AE569F4E1DD710FA00F29A3E /* UIBarbuttonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE569F4D1DD710FA00F29A3E /* UIBarbuttonItem+Extension.swift */; };
+		AE569F501DD7177D00F29A3E /* HMBaseNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE569F4F1DD7177D00F29A3E /* HMBaseNavController.swift */; };
 		AEFD466A1DD6C20A00FD007F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46691DD6C20A00FD007F /* AppDelegate.swift */; };
 		AEFD46711DD6C20A00FD007F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46701DD6C20A00FD007F /* Assets.xcassets */; };
 		AEFD46B31DD6CADD00FD007F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46921DD6CADD00FD007F /* .gitkeep */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		AE569F4A1DD70F9800F29A3E /* HMDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMDemoViewController.swift; sourceTree = "<group>"; };
 		AE569F4D1DD710FA00F29A3E /* UIBarbuttonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarbuttonItem+Extension.swift"; sourceTree = "<group>"; };
+		AE569F4F1DD7177D00F29A3E /* HMBaseNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMBaseNavController.swift; sourceTree = "<group>"; };
 		AEFD46661DD6C20A00FD007F /* Weibo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFD46691DD6C20A00FD007F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEFD46701DD6C20A00FD007F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 			children = (
 				AEFD46A41DD6CADD00FD007F /* .gitkeep */,
 				AEFD46C11DD6F3D600FD007F /* HMTabBarController.swift */,
+				AE569F4F1DD7177D00F29A3E /* HMBaseNavController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				AEFD46C41DD6F3ED00FD007F /* HMHomeTableViewController.swift in Sources */,
 				AEFD46C61DD6F3FA00FD007F /* HMDiscoverTableViewController.swift in Sources */,
 				AE569F4B1DD70F9800F29A3E /* HMDemoViewController.swift in Sources */,
+				AE569F501DD7177D00F29A3E /* HMBaseNavController.swift in Sources */,
 				AEFD46CC1DD6FB5F00FD007F /* HMTabBar.swift in Sources */,
 				AE569F4E1DD710FA00F29A3E /* UIBarbuttonItem+Extension.swift in Sources */,
 			);

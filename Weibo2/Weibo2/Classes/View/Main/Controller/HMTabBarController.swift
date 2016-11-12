@@ -58,7 +58,7 @@ class HMTabBarController: UITabBarController {
         //设置图片的偏移
         //vc.tabBarItem.imageInsets = UIEdgeInsets(top: 5, left: 0, bottom: -5, right: 0)
         //2.将tableVC包装到 导航控制器
-        let nav = UINavigationController(rootViewController: vc)
+        let nav = HMBaseNavController(rootViewController: vc)
         //3.将导航控制器添加到 UITabBarController对象的子视图控制器
         self.addChildViewController(nav)
     }

@@ -19,7 +19,7 @@ class HMHomeTableViewController: UITableViewController {
     @objc private func push() {
         //进入子页面
         let demo = HMDemoViewController()
-        demo.hidesBottomBarWhenPushed = true
+        //demo.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(demo, animated: true)
     }
     
