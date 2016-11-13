@@ -1,14 +1,14 @@
 //
-//  HMMessageTableViewController.swift
-//  Weibo2
+//  QYYMessageTableViewController.swift
+//  sinaWeiBo
 //
-//  Created by teacher on 16/11/12.
-//  Copyright © 2016年 itcast. All rights reserved.
+//  Created by Toad on 16/11/12.
+//  Copyright © 2016年 邱银银. All rights reserved.
 //
 
 import UIKit
 
-class HMMessageTableViewController: UITableViewController {
+class QYYMessageTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

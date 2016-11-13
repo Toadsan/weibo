@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73F03FDE1DD8189E00A847E9 /* QYYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F03FDC1DD8189E00A847E9 /* QYYTabBarController.swift */; };
+		73F03FDF1DD8189E00A847E9 /* QYYBaseNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F03FDD1DD8189E00A847E9 /* QYYBaseNavController.swift */; };
+		73F03FE11DD818AF00A847E9 /* QYYTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F03FE01DD818AF00A847E9 /* QYYTabBar.swift */; };
+		73F03FE31DD818C100A847E9 /* UIBarbutton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F03FE21DD818C100A847E9 /* UIBarbutton+Extension.swift */; };
+		73F03FE51DD818F900A847E9 /* QYYHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F03FE41DD818F900A847E9 /* QYYHomeController.swift */; };
+		73F03FE71DD8190100A847E9 /* QYYPOPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F03FE61DD8190100A847E9 /* QYYPOPViewController.swift */; };
+		73F03FE91DD8191B00A847E9 /* QYYMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F03FE81DD8191B00A847E9 /* QYYMessageTableViewController.swift */; };
+		73F03FEB1DD8192300A847E9 /* QYYDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F03FEA1DD8192300A847E9 /* QYYDiscoverTableViewController.swift */; };
+		73F03FED1DD8192800A847E9 /* QYYProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F03FEC1DD8192800A847E9 /* QYYProfileTableViewController.swift */; };
 		AE569F4B1DD70F9800F29A3E /* HMDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE569F4A1DD70F9800F29A3E /* HMDemoViewController.swift */; };
-		AE569F4E1DD710FA00F29A3E /* UIBarbuttonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE569F4D1DD710FA00F29A3E /* UIBarbuttonItem+Extension.swift */; };
-		AE569F501DD7177D00F29A3E /* HMBaseNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE569F4F1DD7177D00F29A3E /* HMBaseNavController.swift */; };
 		AEFD466A1DD6C20A00FD007F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46691DD6C20A00FD007F /* AppDelegate.swift */; };
 		AEFD46711DD6C20A00FD007F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46701DD6C20A00FD007F /* Assets.xcassets */; };
 		AEFD46B31DD6CADD00FD007F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46921DD6CADD00FD007F /* .gitkeep */; };
@@ -26,18 +33,19 @@
 		AEFD46BE1DD6CADD00FD007F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46AE1DD6CADD00FD007F /* .gitkeep */; };
 		AEFD46BF1DD6CADD00FD007F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46B01DD6CADD00FD007F /* .gitkeep */; };
 		AEFD46C01DD6CADD00FD007F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AEFD46B21DD6CADD00FD007F /* .gitkeep */; };
-		AEFD46C21DD6F3D600FD007F /* HMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C11DD6F3D600FD007F /* HMTabBarController.swift */; };
-		AEFD46C41DD6F3ED00FD007F /* HMHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C31DD6F3ED00FD007F /* HMHomeTableViewController.swift */; };
-		AEFD46C61DD6F3FA00FD007F /* HMDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C51DD6F3FA00FD007F /* HMDiscoverTableViewController.swift */; };
-		AEFD46C81DD6F40700FD007F /* HMMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C71DD6F40700FD007F /* HMMessageTableViewController.swift */; };
-		AEFD46CA1DD6F42A00FD007F /* HMProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46C91DD6F42A00FD007F /* HMProfileTableViewController.swift */; };
-		AEFD46CC1DD6FB5F00FD007F /* HMTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD46CB1DD6FB5F00FD007F /* HMTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73F03FDC1DD8189E00A847E9 /* QYYTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYYTabBarController.swift; sourceTree = "<group>"; };
+		73F03FDD1DD8189E00A847E9 /* QYYBaseNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYYBaseNavController.swift; sourceTree = "<group>"; };
+		73F03FE01DD818AF00A847E9 /* QYYTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYYTabBar.swift; sourceTree = "<group>"; };
+		73F03FE21DD818C100A847E9 /* UIBarbutton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarbutton+Extension.swift"; sourceTree = "<group>"; };
+		73F03FE41DD818F900A847E9 /* QYYHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYYHomeController.swift; sourceTree = "<group>"; };
+		73F03FE61DD8190100A847E9 /* QYYPOPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYYPOPViewController.swift; sourceTree = "<group>"; };
+		73F03FE81DD8191B00A847E9 /* QYYMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYYMessageTableViewController.swift; sourceTree = "<group>"; };
+		73F03FEA1DD8192300A847E9 /* QYYDiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYYDiscoverTableViewController.swift; sourceTree = "<group>"; };
+		73F03FEC1DD8192800A847E9 /* QYYProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYYProfileTableViewController.swift; sourceTree = "<group>"; };
 		AE569F4A1DD70F9800F29A3E /* HMDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMDemoViewController.swift; sourceTree = "<group>"; };
-		AE569F4D1DD710FA00F29A3E /* UIBarbuttonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarbuttonItem+Extension.swift"; sourceTree = "<group>"; };
-		AE569F4F1DD7177D00F29A3E /* HMBaseNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMBaseNavController.swift; sourceTree = "<group>"; };
 		AEFD46661DD6C20A00FD007F /* Weibo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFD46691DD6C20A00FD007F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEFD46701DD6C20A00FD007F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,12 +64,6 @@
 		AEFD46AE1DD6CADD00FD007F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		AEFD46B01DD6CADD00FD007F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		AEFD46B21DD6CADD00FD007F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		AEFD46C11DD6F3D600FD007F /* HMTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTabBarController.swift; sourceTree = "<group>"; };
-		AEFD46C31DD6F3ED00FD007F /* HMHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMHomeTableViewController.swift; sourceTree = "<group>"; };
-		AEFD46C51DD6F3FA00FD007F /* HMDiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMDiscoverTableViewController.swift; sourceTree = "<group>"; };
-		AEFD46C71DD6F40700FD007F /* HMMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMMessageTableViewController.swift; sourceTree = "<group>"; };
-		AEFD46C91DD6F42A00FD007F /* HMProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMProfileTableViewController.swift; sourceTree = "<group>"; };
-		AEFD46CB1DD6FB5F00FD007F /* HMTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,7 @@
 		AE569F4C1DD7108E00F29A3E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				AE569F4D1DD710FA00F29A3E /* UIBarbuttonItem+Extension.swift */,
+				73F03FE21DD818C100A847E9 /* UIBarbutton+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -172,8 +174,8 @@
 		AEFD46991DD6CADD00FD007F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				73F03FEA1DD8192300A847E9 /* QYYDiscoverTableViewController.swift */,
 				AEFD469A1DD6CADD00FD007F /* .gitkeep */,
-				AEFD46C51DD6F3FA00FD007F /* HMDiscoverTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -198,8 +200,8 @@
 		AEFD469E1DD6CADD00FD007F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				73F03FE41DD818F900A847E9 /* QYYHomeController.swift */,
 				AEFD469F1DD6CADD00FD007F /* .gitkeep */,
-				AEFD46C31DD6F3ED00FD007F /* HMHomeTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -207,6 +209,7 @@
 		AEFD46A01DD6CADD00FD007F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				73F03FE61DD8190100A847E9 /* QYYPOPViewController.swift */,
 				AEFD46A11DD6CADD00FD007F /* .gitkeep */,
 			);
 			path = View;
@@ -224,9 +227,9 @@
 		AEFD46A31DD6CADD00FD007F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				73F03FDC1DD8189E00A847E9 /* QYYTabBarController.swift */,
+				73F03FDD1DD8189E00A847E9 /* QYYBaseNavController.swift */,
 				AEFD46A41DD6CADD00FD007F /* .gitkeep */,
-				AEFD46C11DD6F3D600FD007F /* HMTabBarController.swift */,
-				AE569F4F1DD7177D00F29A3E /* HMBaseNavController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -234,8 +237,8 @@
 		AEFD46A51DD6CADD00FD007F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				73F03FE01DD818AF00A847E9 /* QYYTabBar.swift */,
 				AEFD46A61DD6CADD00FD007F /* .gitkeep */,
-				AEFD46CB1DD6FB5F00FD007F /* HMTabBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,8 +255,8 @@
 		AEFD46A81DD6CADD00FD007F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				73F03FE81DD8191B00A847E9 /* QYYMessageTableViewController.swift */,
 				AEFD46A91DD6CADD00FD007F /* .gitkeep */,
-				AEFD46C71DD6F40700FD007F /* HMMessageTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -278,8 +281,8 @@
 		AEFD46AD1DD6CADD00FD007F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				73F03FEC1DD8192800A847E9 /* QYYProfileTableViewController.swift */,
 				AEFD46AE1DD6CADD00FD007F /* .gitkeep */,
-				AEFD46C91DD6F42A00FD007F /* HMProfileTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -385,16 +388,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEFD46C21DD6F3D600FD007F /* HMTabBarController.swift in Sources */,
-				AEFD46C81DD6F40700FD007F /* HMMessageTableViewController.swift in Sources */,
 				AEFD466A1DD6C20A00FD007F /* AppDelegate.swift in Sources */,
-				AEFD46CA1DD6F42A00FD007F /* HMProfileTableViewController.swift in Sources */,
-				AEFD46C41DD6F3ED00FD007F /* HMHomeTableViewController.swift in Sources */,
-				AEFD46C61DD6F3FA00FD007F /* HMDiscoverTableViewController.swift in Sources */,
+				73F03FE11DD818AF00A847E9 /* QYYTabBar.swift in Sources */,
+				73F03FE31DD818C100A847E9 /* UIBarbutton+Extension.swift in Sources */,
+				73F03FE51DD818F900A847E9 /* QYYHomeController.swift in Sources */,
 				AE569F4B1DD70F9800F29A3E /* HMDemoViewController.swift in Sources */,
-				AE569F501DD7177D00F29A3E /* HMBaseNavController.swift in Sources */,
-				AEFD46CC1DD6FB5F00FD007F /* HMTabBar.swift in Sources */,
-				AE569F4E1DD710FA00F29A3E /* UIBarbuttonItem+Extension.swift in Sources */,
+				73F03FE91DD8191B00A847E9 /* QYYMessageTableViewController.swift in Sources */,
+				73F03FEB1DD8192300A847E9 /* QYYDiscoverTableViewController.swift in Sources */,
+				73F03FDF1DD8189E00A847E9 /* QYYBaseNavController.swift in Sources */,
+				73F03FED1DD8192800A847E9 /* QYYProfileTableViewController.swift in Sources */,
+				73F03FE71DD8190100A847E9 /* QYYPOPViewController.swift in Sources */,
+				73F03FDE1DD8189E00A847E9 /* QYYTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
