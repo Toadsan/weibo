@@ -50,6 +50,8 @@ class HMTabBarController: UITabBarController {
         vc.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName : UIColor.orange], for: .selected)
         vc.tabBarItem.setTitleTextAttributes([NSFontAttributeName : UIFont.systemFont(ofSize: 10)], for: .normal)
         vc.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -3)
+        
+        
         vc.tabBarItem.badgeValue = "10"
         vc.tabBarItem.badgeValue = nil
         vc.tabBarItem.badgeColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
